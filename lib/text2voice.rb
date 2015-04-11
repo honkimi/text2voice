@@ -22,7 +22,7 @@ class TextToVoice
     self
   end
 
-  def emotion(emotion:, level: :normal)
+  def emotion(emotion: emotion, level: :normal)
     @emotion = emotion.to_s
     @emotion_level = EMOTION_LEVEL[level]
     self
